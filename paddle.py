@@ -2,7 +2,7 @@
 
 # Import:
 import turtle
-import CONSTANTS as c
+import constants as c
 
 
 # Paddle class:
@@ -19,7 +19,7 @@ class Paddle(turtle.Turtle):
         self.right(90)
 
     def move(self):
-        self.fd(c.TURTLE_SPEED)
+        self.fd(c.SPEED)
 
     def up(self):
         self.setheading(c.HEADINGS[0])
